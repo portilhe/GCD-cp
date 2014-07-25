@@ -39,7 +39,9 @@ The set of variables that were estimated from several signals, from which we use
 * mean: Mean value
 * std: Standard deviation
 
-This means that there are 66 measurement variables. Hence, in total there are 68 variables (with Subject and Activity).
+This means that there are 66 measurement variables, which, as mentioned in the
+original Readme.txt file, are normalized to be within $[-1,1]$. Hence, in total
+there are 68 variables (with Subject and Activity).
 
 Finally, each measurement variable was averaged for each Subject and Activity: heach entry for the measurement variables represents the avarege of the observations for the Subject, Activity and corresponding measurement.
 
